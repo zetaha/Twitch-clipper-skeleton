@@ -7,7 +7,7 @@ for accepted video formats/bitrates.
 
 <h1> Workflow </h1> 
 <ul>
-<li> A Web OAuth2.0 authentication is performed first (see <a href="https://requests-oauthlib.readthedocs.io/en/latest/"> here </a>) </li>
+<li> A Web OAuth2.0 authentication is performed first (see <a href="https://requests-oauthlib.readthedocs.io/en/latest/"> here</a>) </li>
 <li> A POST request creates the video on twitch.tv. 
 <li> Several PUT requests are performed for uploading the video in chunks.</li>
 <li> A POST request alerts twitch.tv that the upload is finished. The video is available 
